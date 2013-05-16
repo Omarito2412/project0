@@ -1,4 +1,5 @@
 <?php
+session_start();
 define('APP_FOLDER','');
 define('M', APP_FOLDER . 'model/');
 define('V', APP_FOLDER . 'view/');
