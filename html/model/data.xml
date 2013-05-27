@@ -11,12 +11,78 @@
         <prices>$6.85</prices>
         <pricel>$10.85</pricel>
         </item>
+        <item>
+        <name>Peppers</name>
+        <prices>$6.85</prices>
+        <pricel>$10.85</pricel>
+        </item>
+        <item>
+        <name>Fresh Garlic</name>
+        <prices>$6.85</prices>
+        <pricel>$10.85</pricel>
+        </item>
+        <item>
+        <name>Mushrooms</name>
+        <prices>$6.85</prices>
+        <pricel>$10.85</pricel>
+        </item>
+        <item>
+        <name>Pepperoni</name>
+        <prices>$6.85</prices>
+        <pricel>$10.85</pricel>
+        </item>
+        <item>
+        <name>Ham</name>
+        <prices>$6.85</prices>
+        <pricel>$10.85</pricel>
+        </item>
+        <item>
+        <name>Grilled Chicken</name>
+        <prices>$7.95</prices>
+        <pricel>$11.80</pricel>
+        </item>
+        <item>
+        <name>Hawaiian</name>
+        <prices>$7.95</prices>
+        <pricel>$11.80</pricel>
+        </item>
+        <item>
+        <name>Extra Cheese</name>
+        <prices>$1.25</prices>
+        <pricel>$1.85</pricel>
+        </item>
+        <item>
+        <name>Three Aces Special</name>
+        <prices>$9.80</prices>
+        <pricel>$15.80</pricel>
+        </item>
+        <item>
+        <name>Meat Lovers</name>
+        <prices>$9.80</prices>
+        <pricel>$15.80</pricel>
+        </item>
     </pizza>
     <salad>
     <item>
      <name>Greek</name>
      <prices>$4.5 </prices>
      <pricel>$5.5 </pricel>
+    </item>
+     <name>Garden</name>
+     <prices>$3.50 </prices>
+     <pricel>$4.50 </pricel>
+    </item>
+     <name>Chef</name>
+     <prices>$4.50 </prices>
+     <pricel>$5.50 </pricel>
+    </item>
+     <name>Tuna</name>
+     <prices>$4.5 </prices>
+     <pricel>$5.5 </pricel>
+    </item>
+     <name>Kabob Salad</name>
+     <prices>$4.95 </prices>
+     <pricel>$5.95 </pricel>
     </item>
     </salad>
 
@@ -25,5 +91,43 @@
         <name>With Sauce</name>
         <prices>$5.40 </prices>
     </item>
+    <item>
+        <name>With Sausage</name>
+        <prices>$6.45 </prices>
+    </item>
+    <item>
+        <name>With Meat Ball</name>
+        <prices>$6.45 </prices>
+    </item>
+    <item>
+        <name>With Veal</name>
+        <prices>$6.45 </prices>
+    </item>
+    <item>
+        <name>With Mushrooms</name>
+        <prices>$6.45 </prices>
+    </item>
     </spaghetti>
+    <wraps>
+    <item>
+	<name>Turkey Club Wrap </name>
+	<prices>$4.95 </prices>
+    </item> 
+    <item>
+	<name>Chicken Cobb </name>
+	<prices>$4.95 </prices>
+    </item>
+    <item>
+	<name>Greek Supreme </name>
+	<prices>$4.95 </prices>
+    </item>
+    <item>
+	<name>Crispy Chicken </name>
+	<prices>$4.95 </prices>
+    </item> 
+    <item>
+	<name>Steak Wrap </name>
+	<prices>$4.95 </prices>
+    </item>   	
+    </wraps>
 </menu>
