@@ -2,19 +2,19 @@
 <menu>
     <pizza>
         <item>
-            <name> Tomato &amp; Cheese</name>
+            <name>Tomato &amp; Cheese</name>
             <prices>$5.50 </prices>
             <pricel>$9.75 </pricel>
         </item>
         <item>
-        <name> Onions </name>
+        <name>Onions</name>
         <prices>$6.85</prices>
         <pricel>$10.85</pricel>
         </item>
     </pizza>
     <salad>
     <item>
-     <name> Greek </name>
+     <name>Greek</name>
      <prices>$4.5 </prices>
      <pricel>$5.5 </pricel>
     </item>
@@ -22,7 +22,7 @@
 
     <spaghetti>
     <item>
-        <name> With Sauce </name>
+        <name>With Sauce</name>
         <prices>$5.40 </prices>
     </item>
     </spaghetti>

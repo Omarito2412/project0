@@ -1,7 +1,8 @@
 <?php
 if(!isset($_GET['cat']))
 {
-    echo'<form action="index.php">
+   echo writeShoppingCart();
+   echo'<form action="index.php">
     <select name="cat">
     <option value="pizza">Pizza</option>
     <option value="spaghetti">Spaghetti</option>

@@ -1,20 +1,39 @@
 <?php
 session_start();
-if(isset($_POST['post']))
+//$_SESSION['cart'] = array();
+//print_r ($_SESSION['cart']);
+//print_r ($_POST);
+
+if(isset($_POST["removal"])) //Is the user trying to remove items?
 {
-    foreach($_POST as $ordername => $order)
+    foreach($_POST as $ordername => $zero)
     {
-        if($order > 0)
-        $_SESSION['cart']["$ordername"] = (isset($_SESSION['cart']["$ordername"])) ? $_SESSION['cart']["$ordername"]+$order : $order;
+        if($zero == 0)
+        {        
+        $name = str_replace('_',' ',$ordername);
+        unset($_SESSION['cart']["$name"]); //Remove that item
+        header("Location: index.php");
+        }
     }
-header("Location: index.php");
 }
 else
 {
-   include("view/cart.php");
-}
-//$quantity = array();
-//    foreach($_SESSION['cart'] as $item)
-//    {        $quantity[$item] = (isset($quantity[$item])) ?  $quantity[$item] + 1 : 1 ;    }
-//$_SESSION['quantity'] = $quantity;
+    if(isset($_POST['post'])) //is the user trying to add items?
+    {
+     foreach($_POST as $ordername => $order)
+     {
+         $ordername = str_replace('_' , ' ' , $ordername);
+         if($order > 0)
+         $_SESSION['cart']["$ordername"] = (isset($_SESSION['cart']["$ordername"])) ? $_SESSION['cart']["$ordername"]+$order : $order;
+     }
+         header("Location: index.php");
+    }
+    
+    else //Just show him the cart!
+    {
+    if(empty($_SESSION['cart']))
+    echo "Your cart is empty";
+    include("view/cart.php");
+    }
+}    
 ?>
