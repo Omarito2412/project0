@@ -1,0 +1,22 @@
+
+body {background-color:#F9C462;}
+#container{width: 100%; height:100%;}
+
+#header{}
+
+#notification{background-color: #F0EC9F; width: 80%; height: 9%; margin: 20px auto; border-radius: 15px; text-align:center; font-weight: bold;}
+
+#content{height: 75%; min-height: 11.5em;}
+#content form{display: inline;}
+#content form input{padding-left: 10px; }
+#content table{}
+#content td {padding: 10px;}
+#footer{
+	background-color:#EA9800;
+	text-align:center;
+	height:16%;
+	font-weight: bold;
+	border-radius: 15px;
+    width: 100%;
+        }
+#footer p {padding-top: 1%;}

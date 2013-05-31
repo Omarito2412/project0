@@ -1,0 +1,15 @@
+$cart = $_SESSION['cart'];
+if ($cart) {
+$cart .= ','.$_GET['id'];
+}
+else {
+$cart = $_GET['id'];
+}
+$items = explode(',',$cart);
+$contents = array();
+    foreach($items as $item)
+        {
+                $contents[$item] = (isset($contents[$item])) ?  $contents[$item] + 1 : 1 ;
+                    }
+                    $_SESSION['cart'] = $cart;
+                    

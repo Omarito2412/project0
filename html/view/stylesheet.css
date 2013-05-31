@@ -1,0 +1,15 @@
+#container { height: 100%; width: 100% } 
+
+#header { height: 15%; width: 100%; } 
+
+#content { height: 65%; width: 100%; } 
+
+#notification { height: 15%; width: 100%; background-color: #EDE4C9; padding-top: 7px; padding-left: 10px;} 
+
+#footer { height: 10%; width: 100%; }
+
+#container tr {margin: 5px 0; }
+#container td {margin: 0 5px;}
+
+#h2 {font-family: Tahoma, Geneva, sans-serif; font-size:12px;}
+
