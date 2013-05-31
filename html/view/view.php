@@ -5,15 +5,26 @@ echo "
 <html lang='en'>
     <head>
 ";
-//include('header-content.php');
-echo "
+include('header-content.php');
+echo '
     </head>
     <body>
-";
+    <div id="container">
+    <div id="header">
+    <img src="includes/images/logo.png">    
+    </div>
+';
 include('content.php');
 echo
-"
-    </body>
+'
+ </div>
+ <div id="footer">
+';
+ include('footer.php');
+ echo
+ '
+ </div>
+ </body>
 </html>
-";
+';
 ?>

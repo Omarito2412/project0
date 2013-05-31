@@ -1,15 +1,7 @@
 <?php
 if(!isset($_GET['cat']))
 {
-   echo writeShoppingCart();
-   echo'<form action="index.php">
-    <select name="cat">
-    <option value="pizza">Pizza</option>
-    <option value="spaghetti">Spaghetti</option>
-    <option value="salad">Salad</option>
-    </select></br>
-    <input type="submit" value="Load Category">
-    </form>';
+   include(V . "view.php");
 }
 else
 {

@@ -8,7 +8,7 @@ function writeShoppingCart() {
 $cart = $_SESSION['cart'];
 if (!$cart)
 {
-return '<p> You have no items in your cart </p>';
+return '<div id="notification"><p> You have no items in your cart </p></div>';
 }
 else
 {
@@ -22,7 +22,7 @@ else
     $s = "s";
     else
     $s = "";
-return '<p>You have <a href="cart.php">'.$items.' item'.$s.' in your shopping cart with a quantity of '.$qty.'</a></p>';
+return '<div id="notification"><p>You have <a href="cart.php">'.$items.' item'.$s.' in your shopping cart with a quantity of '.$qty.'</a></p></div>';
 }
 }
 // Start the controller
